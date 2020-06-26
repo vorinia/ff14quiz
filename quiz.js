@@ -148,7 +148,7 @@ let questions = [
 		choiceA : "Lashu Makkapakka",
 		choiceB : "Nashu Mhakaracca",
 		choiceC : "Lotsa Hankypanky",
-		choiceD : "Acho Tikkytakky",
+		choiceD : "Achoo Tikkytakky",
 		correct : "B"
 	},{
 		question : "What is the name of Archon Louisoix's staff?",
