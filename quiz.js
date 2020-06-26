@@ -437,6 +437,7 @@ function answerIsWrong(){
 // score render
 function scoreRender(){
     scoreDiv.style.display = "block";
+	quiz.style.display = "none";
     
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score/questions.length);
