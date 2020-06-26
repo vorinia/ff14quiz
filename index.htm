@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+<html lang="en">
+<head>
+	<title>:: Anxiety EX's Quiz of the Year ::</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="container">
+		<div id="start">Start Quiz!</div>
+		<div id="quiz" style="display:none">
+			<div id="qImg"></div>
+			<div id="question"></div>
+				<div id="choices">
+					<div class="choice" id="A" onclick="checkAnswer('A')">A</div>
+					<div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+					<div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+					<div class="choice" id="D" onclick="checkAnswer('D')">D</div>
+				</div>
+		<div id="timer">
+			<div id="counter"></div>
+			<div id="btimeGauge"></div>
+			<div id="timeGauge"></div>
+		</div>
+		<div id="progress"></div>
+	</div>
+	<div id="scoreContainer" style="display:none"></div>
+	<div id="restart"><button onClick="window.location.reload();">Restart</button></div>
+</div>
+	<script src="quiz.js"></script>
+</body>
+</html>
